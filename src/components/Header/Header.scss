@@ -1,0 +1,29 @@
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 5px #ddd;
+
+.title {
+    padding: 0;
+    margin: 0;
+    margin-left: 17px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: #373737;
+
+svg {
+    margin-right: 15px;
+    color: #aaaaaa;
+}
+}
+
+.author {
+    font-size: 17px;
+    color: #373737;
+    margin-right: 17px;
+}
+}

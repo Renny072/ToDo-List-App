@@ -1,0 +1,81 @@
+  .taskContainer {
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px; 
+    margin-left: 2px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    background-color: #f7f7f7;
+
+    h3 { 
+        font-size: 30px; 
+        color: #373737;
+        margin: 10px 0; 
+    }
+
+    .taskId { 
+        font-size: 17px; 
+        color: #8d8d8d;
+        margin: 5px 0; 
+    }
+}
+
+  .tasksWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+  .statusCompleted {
+    color: #4CAF50; 
+    font-size: 17px;
+}
+  
+  .statusOpen {
+    color: #8d8d8d; 
+    font-size: 17px;
+}
+
+  .buttonsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    border-top: 2px solid #ccc; 
+    padding: 20px; 
+    margin-top: 20px; 
+    border-radius: 5px; 
+}
+  
+  .changeStatusButton, .removeTaskButton {
+    background-color: transparent;
+    color: #65b2d2; 
+    border: none;
+    padding: 1px 13px;
+    cursor: pointer;
+    font-size: 16px;
+  
+    &:hover {
+      opacity: 0.8; 
+    }
+  
+    svg {
+      margin-right: 5px;
+    }
+}
+  
+  .removeTaskButton {
+    color: #e73838; 
+  
+    &:hover {
+      color: #9a2424; 
+    }
+}
+  

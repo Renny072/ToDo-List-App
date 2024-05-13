@@ -1,0 +1,18 @@
+.header-link {
+    text-decoration: none; 
+    color: #000; 
+    margin-right: 20px; 
+   
+}
+
+.header-link:hover {
+    color: #0c3e74; 
+    transform: scale(1.1);
+}
+.main-menu {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    background-color: #ccddf4;
+    padding: 11px 0;
+}
